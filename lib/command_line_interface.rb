@@ -4,7 +4,7 @@ require 'nokogiri'
 require 'colorize'
 
 class CommandLineInteface
-  BASE_PATH = "./fixtures/student-site/"
+  BASE_PATH = ""
 
   def run
     make_students
